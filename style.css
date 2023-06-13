@@ -1,0 +1,213 @@
+:root {
+   --color-white: #fffeff;
+   --color-pale-blue: #a8bada;
+   --color-pale-green: #97dac7;
+   --color-pale-yellow: #e9e7b4;
+   --color-pale-red: #e7887e;
+   --color-pale-purple: #bda7d9;
+   --color-background: #1d1d1d;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: var(--color-white);
+    line-height: 1.5;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+   background-color: var(--color-background); 
+   font-family: 'Poppins', sans-serif;
+   /* display: flex;
+   justify-content: center; */
+}
+
+.parent-container {
+    /* max-width: 996px; */
+    padding: 0 4rem;
+}
+
+/* Images */
+.shaun-head-shot-wrapper {
+    position: relative;
+}
+
+.shaun-head-shot {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.slash {
+    position: absolute;
+    top:200px;
+    font-size: 1.5rem;
+    color: var(--color-pale-blue);
+    z-index: 2;
+}
+
+.symbol1 {
+    position: absolute;
+    top:15px;
+    left: 220px;
+    font-size: 2rem;
+    color: var(--color-pale-yellow);
+    
+}
+
+.symbol2 {
+    position: absolute;
+    top:3px;
+    left: 240px;
+    font-size: 2rem;
+    color: var(--color-pale-yellow);
+}
+
+.symbol3 {
+    position: absolute;
+    top:25px;
+    left: 240px;
+    font-size: 2rem;
+    color: var(--color-pale-yellow);
+
+}
+
+.shaun-head-shot-border {
+    width: 250px;
+    height:250px;
+    border: 1.5px solid var(--color-white);
+    border-radius: 50%;
+    position: absolute;
+    top:6px;
+    left:-7px;
+
+}
+
+.phone {
+    width:100%;
+    margin: 1rem 0;
+    display: none;
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 1rem 0;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: var(--color-background);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--color-pale-green);
+}
+
+/* Sections */
+.hero-section {
+    padding-top: 6rem;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.about-section {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.about-me-text {
+    padding-bottom: 1rem;
+}
+
+.my-links {
+    text-decoration: underline;
+    color: var(--color-pale-blue);
+    display: block;
+    padding: .5rem 0;
+}
+
+ul{
+    padding-left: 3rem;
+}
+
+li {
+    padding-bottom: .5rem;
+}
+
+.skills-section {
+    padding-bottom: 3rem;
+    
+}
+.contact-section {
+    padding-bottom:  3rem;
+}
+
+/* Heading */
+.hero-title {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    padding-bottom: .25rem;
+    max-width: 300px;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-pale-green);
+}
+
+h3 {
+    color: var(--color-pale-green);
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Button */
+.resume-button {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: .5rem;
+    background-color: var(--color-background);
+    border: 1px solid var(--color-pale-green);
+    color: var(--color-pale-green);
+    border-radius: .25rem;
+}
+
+.resume-button-link {
+    color: var(--color-pale-green);
+}
+
+.resume-button-link:hover {
+    color: var(--color-background);
+}
+
+.resume-button:hover {
+    background-color: var(--color-pale-green);
+    /* color: var(--color-background); */
+    cursor: pointer;
+}
+
+/* Desktop design */
+
+/* @media (min-width: 576px) {
+    .hero-section {
+        display: flex;
+    }
+} */
