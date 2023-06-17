@@ -23,13 +23,11 @@ html {
 body {
    background-color: var(--color-background); 
    font-family: 'Poppins', sans-serif;
-   /* display: flex;
-   justify-content: center; */
 }
 
 .parent-container {
-    /* max-width: 996px; */
     padding: 0 4rem;
+    
 }
 
 /* Images */
@@ -117,9 +115,11 @@ a:hover{
 /* Sections */
 .hero-section {
     padding-top: 6rem;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .about-section {
@@ -206,8 +206,17 @@ h5{
 
 /* Desktop design */
 
-/* @media (min-width: 576px) {
+@media (min-width: 650px) {
     .hero-section {
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
-} */
+
+    .parent-container {
+        max-width: 996px;
+        margin: 0 auto;
+    }
+    
+    
+}
